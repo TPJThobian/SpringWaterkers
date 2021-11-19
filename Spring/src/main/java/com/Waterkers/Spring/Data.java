@@ -9,6 +9,67 @@ import javax.persistence.Id;
 public class Data {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
+
+    private Integer GrondTemp;
+
+    private Integer GrondVocht;
+
+    private Integer PHWaarde;
+
+    private Integer LuchtTemp;
+
+    private Integer LuchtVocht;
+
+    private String Datum&Tijd;
+
+    public Integer getGrondTemp() {
+        return GrondTemp;
+    }
+
+    public void setGrondTemp(Integer GrondTemp) {
+        this.GrondTemp = GrondTemp;
+    }
+
+    public Integer getGrondVocht() {
+        return GrondVocht;
+    }
+
+    public void setGrondVocht(Integer GrondVocht) {
+        this.GrondVocht = GrondVocht;
+    }
+
+    public Integer getPHWaarde() {
+        return PHWaarde;
+    }
+
+    public void setPHWaarde(Integer PHWaarde) {
+        this.PHWaarde = PHWaarde;
+    }
+
+    public Integer getLuchtTemp() {
+        return LuchtTemp;
+    }
+
+    public void setLuchtTemp(Integer LuchtTemp) {
+        this.LuchtTemp = LuchtTemp;
+    }
+
+    public Integer getLuchtVocht() {
+        return LuchtVocht;
+    }
+
+    public void setLuchtVocht(Integer LuchtVocht) {
+        this.LuchtVocht = LuchtVocht;
+    }
+
+    public String getDatum&Tijd() {
+        return Datum&Tijd;
+    }
+
+    public void setDatum&Tijd(String Datum&Tijd) {
+        this.Datum&Tijd = Datum&Tijd;
+    }
+
     private Integer id;
 
     private String name;
