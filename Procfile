@@ -1,1 +1,1 @@
-web: java -jar target/accessing-data-mysql-Spring-0.0.1-SNAPSHOT.jar
+web: java -jar target/SpringWaterkers-0.0.1-SNAPSHOT.jar
