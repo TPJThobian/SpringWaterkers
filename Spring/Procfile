@@ -1,0 +1,1 @@
+web: java -jar target/accessing-data-mysql-Spring-0.0.1-SNAPSHOT.jar
