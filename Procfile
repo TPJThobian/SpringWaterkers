@@ -1,1 +1,0 @@
-web: java -jar target/SpringWaterkers-1.0-SNAPSHOT.jar
